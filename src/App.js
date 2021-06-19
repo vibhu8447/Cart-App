@@ -7,21 +7,8 @@ function App() {
  
 return(
   <>
-  <div className="main">
-  <div className="header">
-        <div className="heading">
-        <h1>hello</h1>
-
-        </div>
-        <div>
-        <AiOutlineShoppingCart/>
-
-        </div>
-      </div>
-  </div>
-
-
-     <Items></Items> 
+  
+  <Items/>
   </>
 );
 }

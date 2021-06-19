@@ -3,8 +3,9 @@ import { useState } from 'react';
 import {AiOutlineArrowUp,AiOutlineArrowDown} from 'react-icons/ai';
 import './index.css';
 
-function App({id,title,price,img,amount}) {
-  console.log(img);
+function App({id,title,price,img,amount ,Ammount,add}) {
+
+
   const [count,setcount]=useState(amount);
 return (
 <main>
@@ -24,7 +25,9 @@ return (
         <div className="upper">
         <AiOutlineArrowUp onClick={()=>
         {
+          add(price);
           setcount(count+1);
+          
         }}/>
         </div>
         
@@ -48,6 +51,7 @@ return (
                 
               }
               else
+              add(-price);
               setcount(count-1);
               
             }} />
