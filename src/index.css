@@ -1,0 +1,95 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+
+}
+.main
+{
+  background-color: red;
+}
+
+.header
+{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+AiOutlineShoppingCart
+{
+  align-self: flex-start;
+}
+.title{
+ 
+  /* background-color: red; */
+font-size: 20px;
+}
+
+.start
+{
+  /* background-color: red; */
+  left: 0;
+  align-self: flex-start;
+ align-items: flex-start;
+ font-style: italic;
+ font-weight: lighter;
+
+}
+.container
+{
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.container > div
+{
+  
+  margin: 10px;
+  /* padding: 20px; */
+  font-size: 30px;
+}
+.end
+{
+
+  display: flex;
+  flex-direction: column;
+padding-top: 0%!important;
+}
+.counting
+{
+  background-color: pink;
+}
+
+
+
+.container{
+ height: 100px;
+ font-size: 10px; 
+ border: 2px solid black;
+ margin-top: 20px;
+}
+
+#count{
+  font-size: 50%;
+}
+.end{
+  padding: 0;
+   height: fit-content;
+   background-color: red;
+}
+.upper,.lower
+{
+  color: green;
+  font-size: 18px;
+}
+img {
+  display: block;
+  max-width:100px;
+  max-height:90px;
+  width: auto;
+  height: auto;
+}
